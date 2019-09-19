@@ -15,7 +15,7 @@ Alumnos:
   - Rovito, Juan Francisco (84948)
 
 
-## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpresso
+## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpressoenes 
 
 ### Estructura de Archivos
 
@@ -32,12 +32,57 @@ Por otro lado encontramos la carpeta
 Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos desarrollados con "código puro", con "máquinas de estado" y con Sistemas Operativos de Tiempo Real
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
-
 	firmware_v2\sapi_examples\edu-ciaa-nxp\statecharts
 	firmware_v2\sapi_examples\edu-ciaa-nxp\operating_systems
 
-Analizaremos los proyectos dentro de bare-me
-Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
+Analizaremos los proyectos dentro de **bare-memódulos:
+**Internal Peripherals**
+  - Data types.
+- Peripheral Map.
+- ISR Vector.
+- Board.
+
+- Tick.
+
+- GPIO.
+
+- UART.
+
+- ADC.
+
+- DAC.
+
+- I2C.
+
+- RTC.
+
+- Sleep.
+
+- PWM.
+
+  
+
+**Delays**
+
+  
+
+- Delay.
+
+  
+
+**External Peripherals**
+
+  
+
+- 7-segment display.
+
+- Keypad.
+
+- Angular Servo (0 to 180°).
+
+- Magnetometer (compass) sensor HMC5883L.
+
+
 
 ### Secuencia de Comandos
 
@@ -117,7 +162,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyODUxMjQ3LC01NDg1OTgyODMsMTgwNT
-AyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEw
-NiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ==
+eyJoaXN0b3J5IjpbNTI0MTAyMTg4LDMwMjg1MTI0NywxODA1MD
+I3NTk1LDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2
+LDEyMjA5OTY0ODAsMTA1MTIxNjcxOV19
 -->
