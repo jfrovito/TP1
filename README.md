@@ -86,9 +86,9 @@ Se crea la carpeta
 
 	firmware_v2\projects\TP1
 
-Allí se copia todo el contenido de la carpeta de 
+Allí se copia todo el contenido de la carpeta 
 
-	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal5.  gpio/gpio_02_blinky
+	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metalgpio/gpio_02_blinky
  
 __Funciones sAPI__
 
@@ -146,9 +146,9 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjYwNDc0ODcsLTE5NjIyMjkwNDMsLT
-c1MjAwMzAxMSwtMTM4MDc4MjQwNyw4OTU0MTY1OTIsLTMwMDgw
-MjA3LDE5OTY5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LD
-EyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEy
-MTY3MTldfQ==
+eyJoaXN0b3J5IjpbNzA2Njg5MTE3LC0xODI2MDQ3NDg3LC03NT
+IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
+NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
+IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
+NzE5XX0=
 -->
