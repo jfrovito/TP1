@@ -20,12 +20,14 @@ b. Por etapas colocando breakpoints (Resume)
 c. Por línea de código (Step Into, Step Over, Step Return)  
 d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algún archivo, o abandonar el IDE (Exit)
 
-__1.c.ii.8__ 
+__Migración__ 
 
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
 
+_Pasos de Migración_ 
 a. Documentar los pasos a seguir para concretar una migración exitosa
-    
+ 
+_Parpadeo de Led
 b. Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
@@ -57,5 +59,5 @@ d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apa
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzEyMTE5NV19
+eyJoaXN0b3J5IjpbMTkzOTA4MTEwNV19
 -->
