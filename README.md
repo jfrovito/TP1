@@ -70,14 +70,6 @@ Una vez abierto el proyecto en cuestión, se deberá:
 Para realizar el _debug_ se debe ir al ícono de "_debug_" y luego colocar la opción "_debug configurations_".
 Una vez realizada la configuración del _debug_, hay que  _click_ al  botón _debug_ para realizarlo.  Luego, con las teclas F5 y F6 se podrá  el paso a paso ingresando o no a las funciones. Con F5 (_Step into_) Se ingresa a las funciones y con F6 (_Step over_) se ejecutan línea a línea sin entrar a cada función.
 
- 
-Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
-    
-a. Completo (Resume), detener (Suspend) y resetear (Restart)  
-b. Por etapas colocando breakpoints (Resume)  
-c. Por línea de código (Step Into, Step Over, Step Return)  
-d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algún archivo, o abandonar el IDE (Exit)
-
 ### Parpadeo de LEDs c/sAPI
 
 __Pasos de Migración__ 
@@ -92,7 +84,10 @@ Allí se copia todo el contenido de la carpeta
  
 __Funciones sAPI__
 
-Para realizar el parpadeo de un led, el programa blincky.c utiliza 2 funciones: gpioWrite( ) y delay( ). A gpioWrite, se le pasa como argumentos el pin y un valor donde valor le indica al pin si se debe preneder o no el LED . Por otra parte a delay  
+L
+
+Para realizar el parpadeo de un led, el programa blincky.c utiliza 2 funciones: gpioWrite( ) y delay( ).
+A gpioWrite(), se le pasa como argumentos el pin y un valor donde valor le indica al pin si se debe preneder o no el LED . Por otra parte a delay  
 Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
@@ -146,9 +141,9 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA2Njg5MTE3LC0xODI2MDQ3NDg3LC03NT
-IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
-NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
-IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
-NzE5XX0=
+eyJoaXN0b3J5IjpbLTg1MTk1MTA2NSwtMTgyNjA0NzQ4NywtNz
+UyMDAzMDExLC0xMzgwNzgyNDA3LDg5NTQxNjU5MiwtMzAwODAy
+MDcsMTk5Njk5ODI4NCwxODA1MDI3NTk1LDEzMzI2MzMxMDYsMT
+IyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTA1MTIx
+NjcxOV19
 -->
