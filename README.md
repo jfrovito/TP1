@@ -58,7 +58,11 @@ Estructura de archivos dentro del proyecto:
 ![estructura de archivos]("estructura_archivo_ejemplo.png")
 Dentro de **src** se encuentran los archivos de código de programa (.c)
 Dentro de **inc** se encuentran los archivos header (.h)
-El archivo **Makefile** se declaran 
+El archivo **Makefile** se declaran los siguientes flags:
+
+ - Nombre del proyecto
+ - Ubicación de los módulos dependiendo de micro que usará
+ - Ubicación de 
 
 ### Secuencia de Comandos
 
@@ -141,7 +145,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNjc5MDc2LC0xODI2MDQ3NDg3LC03NT
+eyJoaXN0b3J5IjpbMjc0MzI5MTE5LC0xODI2MDQ3NDg3LC03NT
 IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
 NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
 IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
