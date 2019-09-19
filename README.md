@@ -20,7 +20,7 @@ b. Por etapas colocando breakpoints (Resume)
 c. Por línea de código (Step Into, Step Over, Step Return)  
 d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algún archivo, o abandonar el IDE (Exit)
 
-### Migración: Parpadeo de LEDs
+### Parpadeo de LEDs
 
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
 
@@ -34,10 +34,15 @@ Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
 
 	
-## Punto 2
+## Punto 2: Sensado de Push Buttons
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_01_switches_leds (sensado de Push Buttons c/sAPI) a:projects/TP1
 
+### Compilación Condicional
+
 a. Documentar los pasos a seguir para mantener en el archivo TP1.c los fuentes del TP1-1 y TP1-2 (compilación condicional)
+
+### Funciones sAPI
+
 b. Identificar funciones de librería sAPI útiles para el sensado de un pulsador
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
@@ -60,5 +65,5 @@ d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apa
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTExOTExMl19
+eyJoaXN0b3J5IjpbLTExMjk1MjQ5MTZdfQ==
 -->
