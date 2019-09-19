@@ -19,8 +19,7 @@ Alumnos:
 
 ### Estructura de Archivos
 
-Los proyectos de ejemplo están ubicados dentro de la carpeta: 
-	firmware_v2\sapi_examples
+Los proyectos de ejemplo están ubicados dentro de la carpeta:firmware_v2\sapi_examples
 Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA en:
 	firmware_v2\sapi_examples\documentation.
 Por otro lado encontramos la carpetafirmware_v2\sapi_examples\edu-ciaa-nxp
@@ -106,7 +105,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTAyNzU5NSwtMjEzNTI0NjYyOSwxMz
-MyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2
-NDgwLDEwNTEyMTY3MTldfQ==
+eyJoaXN0b3J5IjpbMjA3MTEyNDY3MywxODA1MDI3NTk1LDEzMz
+I2MzMxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0
+ODAsMTA1MTIxNjcxOV19
 -->
