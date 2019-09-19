@@ -58,7 +58,7 @@ Estructura de archivos dentro del proyecto:
 ![estructura de archivos]("estructura_archivo_ejemplo.png")
 Dentro de **src** se encuentran los archivos de código de programa (.c)
 Dentro de **inc** se encuentran los archivos header (.h)
-El archivo **Makefile** .....
+El archivo **Makefile** 
 
 ### Secuencia de Comandos
 
@@ -80,20 +80,15 @@ d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algu�
 
 ### Parpadeo de LEDs c/sAPI
 
+__Pasos de Migración__ 
+
 Se crea la carpeta
 
 	firmware_v2\projects\TP1
 
-Se copia todo el contenido de la carpeta
+Allí se copia todo el contenido de la carpeta de 
 
-	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal\opia todo el contenido de la carpeta
-
-
-__Pasos de Migración__ 
-
-Para realizar la migración, en primer lugar
-
-Documentar los pasos a seguir para concretar una migración exitosa
+	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal5.  gpio/gpio_02_blinky
  
 __Funciones sAPI__
 
@@ -151,9 +146,9 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU5NTk0ODI3LC03NDk0MDA1OTQsLTc1Mj
-AwMzAxMSwtMTM4MDc4MjQwNyw4OTU0MTY1OTIsLTMwMDgwMjA3
-LDE5OTY5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LDEyMj
-A5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3
-MTldfQ==
+eyJoaXN0b3J5IjpbLTE5NjIyMjkwNDMsNzU5NTk0ODI3LC03NT
+IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
+NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
+IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
+NzE5XX0=
 -->
