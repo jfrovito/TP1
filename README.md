@@ -35,54 +35,30 @@ Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\statecharts
 	firmware_v2\sapi_examples\edu-ciaa-nxp\operating_systems
 
-Analizaremos los proyectos dentro de **bare-memódulos:
+Analizaremos los proyectos dentro de **bare-metal**:
 **Internal Peripherals**
-  - Data types.
+- Data types.
 - Peripheral Map.
 - ISR Vector.
 - Board.
-
 - Tick.
-
 - GPIO.
-
 - UART.
-
 - ADC.
-
 - DAC.
-
 - I2C.
-
 - RTC.
-
 - Sleep.
-
 - PWM.
-
-  
-
 **Delays**
-
-  
-
 - Delay.
-
-  
-
 **External Peripherals**
-
-  
-
 - 7-segment display.
-
 - Keypad.
-
 - Angular Servo (0 to 180°).
-
 - Magnetometer (compass) sensor HMC5883L.
 
-
+Dentro de GPIO encontramos el _gpio_02_blinky_
 
 ### Secuencia de Comandos
 
@@ -164,7 +140,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5Njk5ODI4NCw1MjQxMDIxODgsMTgwNT
-AyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEw
-NiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ==
+eyJoaXN0b3J5IjpbMTQzNzY3MDUzOCwxOTk2OTk4Mjg0LDE4MD
+UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
+MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
