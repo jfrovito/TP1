@@ -30,9 +30,20 @@ b. Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
 
 	
-__Punto 2__ 
+## Punto 2
+Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_01_switches_leds (sensado de Push Buttons c/sAPI) a:projects/TP1
 
+a. Documentar los pasos a seguir para mantener en el archivo TP1.c los fuentes del TP1-1 y TP1-2 (compilación condicional)
+b. Identificar funciones de librería sAPI útiles para el sensado de un pulsador
+	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
+	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
 
+## Punto 3
+Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/tick_01_tickHook (uso de tickHooks c/sAPI) a: projects/TP1
+a. Mediante compilación condicional, mantener en el archivo TP1.c los fuentes del TP1-1, TP1-2 y TP1-3  
+b. Identificar funciones de librería sAPI útiles para el colgarse de un tick
+	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
+	.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mjk5MjI1NF19
+eyJoaXN0b3J5IjpbLTY3ODI4Njg4N119
 -->
