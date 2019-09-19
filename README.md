@@ -32,7 +32,7 @@ Por otro lado encontramos la carpeta
 Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos de "hardware puro"
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
-Los proyectos 
+Los proyecto	
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
 ### Secuencia de Comandos
@@ -43,7 +43,7 @@ Una vez abierto el proyecto en cuestión, se deberá:
  2. Luego "Project" ----> "Build project".
 
 Para realizar el _debug_ se debe ir al ícono de "_debug_" y luego colocar la opción "_debug configurations_".
-Una vez realizada la configuración del _debug_, hay que re 
+Una vez realizada la configuración del _debug_, hay que  _click_ al  botón _debug_ para realizarlo.  
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
 a. Completo (Resume), detener (Suspend) y resetear (Restart)  
@@ -113,7 +113,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA1MTgzMzAsNjcxMDI2OTYzLDE4MD
+eyJoaXN0b3J5IjpbODA1MTYzNzY1LC0xMzUwNTE4MzMwLDE4MD
 UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
 MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
