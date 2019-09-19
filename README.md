@@ -77,7 +77,13 @@ d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algu�
 
 ### Parpadeo de LEDs c/sAPI
 
+Se crea la carpeta
+
+	firmware_v2\projects\TP1
+
 Se copia todo el contenido de la carpeta
+
+	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal\
 
 
 __Pasos de Migración__ 
@@ -141,8 +147,8 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTIyNDk3NSwtMTM4MDc4MjQwNyw4OT
-U0MTY1OTIsLTMwMDgwMjA3LDE5OTY5OTgyODQsMTgwNTAyNzU5
-NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMj
-IwOTk2NDgwLDEwNTEyMTY3MTldfQ==
+eyJoaXN0b3J5IjpbNzY4MjMwOTk3LC0xMzgwNzgyNDA3LDg5NT
+QxNjU5MiwtMzAwODAyMDcsMTk5Njk5ODI4NCwxODA1MDI3NTk1
+LDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMj
+A5OTY0ODAsMTA1MTIxNjcxOV19
 -->
