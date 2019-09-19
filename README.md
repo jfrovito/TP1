@@ -19,7 +19,8 @@ Alumnos:
 
 ### Estructura de Archivos
 
-Los proyectos de ejemplo están ubicados 
+Los proyectos de ejemplo están ubicados dentro de la carpeta firmware_v2/sapi_examples.
+
 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
@@ -94,7 +95,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzkzMzE5OCwxMzMyNjMzMTA2LDEyMj
-A5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3
-MTldfQ==
+eyJoaXN0b3J5IjpbNzM4NzAyODc0LDEzMzI2MzMxMDYsMTIyMD
+k5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTA1MTIxNjcx
+OV19
 -->
