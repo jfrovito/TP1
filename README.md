@@ -30,28 +30,22 @@ Por otro lado encontramos la carpeta
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp
 
-Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos desarrollados con "código puro", con "máquinas de estado" y con "RTOS" (sistemas operativos de tiempo real)
+Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos desarrollados con "código puro", con "máquinas de estado" y con "RTOS" (sistemas perativos de tiempo eal)
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
 	firmware_v2\sapi_examples\edu-ciaa-nxp\statecharts
 	firmware_v2\sapi_examples\edu-ciaa-nxp\operating_systems
 
-Analizaremos los proyectos dentro de **bare-metal**:
+Analizaremos los proyectos dentro de **bare-mel:
 **Internal Peripherals**
 - Data types.
 - Peripheral Map.
 - ISR Vector.
 - Board.
-- Tick.
-- GPIO.
-- UART.
-- ADC.
-- DAC.
-- I2C.
-- RTC.
-- Sleep.
-- PWM.
-**Delays**
+- Tick.- GPIO.- UART.
+- ADC.- DAC.- I2C.
+- RTC.- Sleep.
+- PWM.**Delays**
 - Delay.
 **External Peripherals**
 - 7-segment display.
@@ -142,7 +136,8 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE3MTU1MTk0LDE5OTY5OTgyODQsMTgwNT
-AyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEw
-NiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ==
+eyJoaXN0b3J5IjpbLTE3MjAyNDEzOTgsMjE3MTU1MTk0LDE5OT
+Y5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0
+ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ
+==
 -->
