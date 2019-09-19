@@ -33,7 +33,10 @@ Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por 
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
 
-Los proyecto	
+	firmware_v2\sapi_examples\edu-ciaa-nxp\statecharts
+	firmware_v2\sapi_examples\edu-ciaa-nxp\operating_systems
+
+Analizaremos los proyectos dentro de bare-me
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
 ### Secuencia de Comandos
@@ -114,7 +117,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NjU5MTMyNCwxMTI3NjUxODYzLDE4MD
+eyJoaXN0b3J5IjpbLTU0ODU5ODI4MywxMjk2NTkxMzI0LDE4MD
 UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
 MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
