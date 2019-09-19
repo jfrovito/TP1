@@ -20,7 +20,7 @@ b. Por etapas colocando breakpoints (Resume)
 c. Por línea de código (Step Into, Step Over, Step Return)  
 d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algún archivo, o abandonar el IDE (Exit)
 
-### Parpadeo de LEDs
+### Parpadeo de LEDs c/sAPI
 
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
 
@@ -34,7 +34,7 @@ Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
 
 	
-## Punto 2: Sensado de Push Buttons
+## Punto 2: Sensado de Push Buttons c/sAPI
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_01_switches_leds (sensado de Push Buttons c/sAPI) a:projects/TP1
 
 ### Compilación Condicional
@@ -47,14 +47,18 @@ b. Identificar funciones de librería sAPI útiles para el sensado de un pulsa
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
 
-## Punto 3
+## Punto 3: Uso de tickHooks c/sAPI
+
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/tick_01_tickHook (uso de tickHooks c/sAPI) a: projects/TP1
 a. Mediante compilación condicional, mantener en el archivo TP1.c los fuentes del TP1-1, TP1-2 y TP1-3  
+
+### Funciones sAPI
+
 b. Identificar funciones de librería sAPI útiles para el colgarse de un tick
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
 
-# Punto 4
+# Punto 4: Uso de tickHooks & LEDsc/sAPI
 Hacer portable el uso de tickHooks & LEDs c/sAPI
 a.  Mediante compilación condicional, mantener en el archivo TP1.c los fuentes del TP1-1, TP1-2, TP1-3 y TP1-4
 b.  Documentar la modificación la configuración del tickHook en función de la constante TICKRATE_MS (1mS/10mS/100mS)
@@ -65,5 +69,5 @@ d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apa
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjk1MjQ5MTZdfQ==
+eyJoaXN0b3J5IjpbNTc2NjY3NjkyXX0=
 -->
