@@ -19,6 +19,7 @@ Alumnos:
 
 ### Estructura de Archivos
 
+
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
 ### Secuencia de Comandos
@@ -92,5 +93,6 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
+eyJoaXN0b3J5IjpbMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNT
+EyMTY3MTldfQ==
 -->
