@@ -55,8 +55,10 @@ Analizaremos los proyectos dentro de **bare-mel:
 
 Dentro de GPIO encontramos el _gpio_02_blinky_
 Estructura de archivos dentro del proyecto:
-![estructura de archivos]("estructura_archivo_ejemploestturael.png").png")
-Dentro de **src** se encuentran los archivos de código d
+![estructura de archivos]("estructura_archivo_ejemplo.png")
+Dentro de **src** se encuentran los archivos de código de programa (.c)
+Dentro de **inc** se encuentran los archivos header (.h)
+
 
 ### Secuencia de Comandos
 
@@ -149,7 +151,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NTQyOTI5MywtNzQ0Njc3MTc2LC0xMz
+eyJoaXN0b3J5IjpbLTc1MjAwMzAxMSwxNTU1NDI5MjkzLC0xMz
 gwNzgyNDA3LDg5NTQxNjU5MiwtMzAwODAyMDcsMTk5Njk5ODI4
 NCwxODA1MDI3NTk1LDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMz
 MyNjMzMTA2LDEyMjA5OTY0ODAsMTA1MTIxNjcxOV19
