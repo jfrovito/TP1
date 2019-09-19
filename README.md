@@ -1,7 +1,9 @@
+**Seminario de Electrónica: Sistemas Embebidos - Trabajo Práctico N° 1**
 
-# Documentación del TP1 del grupo XX
+LPC43xx Entradas y Salidas (Digitales) de Propósito General (GPIO)
+# Documentación
 
-Almunos:
+Alumnos:
   - Chaparro, Raúl Antonio (96222)
   - Fernando ()
   - Rovito, Juan Francisco (84948)
@@ -88,5 +90,5 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjI2OTU4NV19
+eyJoaXN0b3J5IjpbLTE5NzI2MjUyNzVdfQ==
 -->
