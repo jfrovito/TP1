@@ -55,7 +55,7 @@ Analizaremos los proyectos dentro de **bare-mel:
 
 Dentro de GPIO encontramos el _gpio_02_blinky_
 Estructura de archivos dentro del proyecto:
-![estructura de archivos](estructura_archivo_ejemplo.png)
+![estructura de archivos]("estructura_archivo_ejemplo.png")
 
 ### Secuencia de Comandos
 
@@ -77,7 +77,8 @@ d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algu�
 
 ### Parpadeo de LEDs c/sAPI
 
-Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
+Se copia todo el contenido de la carpeta
+
 
 __Pasos de Migración__ 
 
@@ -140,8 +141,8 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODUwMzE1MTcsLTEzODA3ODI0MDcsOD
-k1NDE2NTkyLC0zMDA4MDIwNywxOTk2OTk4Mjg0LDE4MDUwMjc1
-OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMxMDYsMT
-IyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
+eyJoaXN0b3J5IjpbMTIxNTIyNDk3NSwtMTM4MDc4MjQwNyw4OT
+U0MTY1OTIsLTMwMDgwMjA3LDE5OTY5OTgyODQsMTgwNTAyNzU5
+NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMj
+IwOTk2NDgwLDEwNTEyMTY3MTldfQ==
 -->
