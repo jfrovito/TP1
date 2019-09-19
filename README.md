@@ -55,7 +55,7 @@ Analizaremos los proyectos dentro de **bare-mel:
 
 Dentro de GPIO encontramos el _gpio_02_blinky_
 Estructura de archivos dentro del proyecto:
-![estructura de archivos]("estructura_archivo_ejemplo.png")
+![estructura de archivos]("estructura_archivo_ejemploestturael.png")
 
 ### Secuencia de Comandos
 
@@ -83,7 +83,7 @@ Se crea la carpeta
 
 Se copia todo el contenido de la carpeta
 
-	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal\
+	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal\opia todo el contenido de la carpeta
 
 
 __Pasos de Migración__ 
@@ -100,8 +100,8 @@ Identificar funciones de librería sAPI útiles para el parpadeo de un led
 
 	
 ## Punto 2: Sensado de Push Buttons c/sAPI
-Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_01_switches_leds (sensado de Push Buttons c/sAPI) a:projects/TP1
 
+e c
 ### Compilación Condicional
 
 a. Documentar los pasos a seguir para mantener en el archivo TP1.c los fuentes del TP1-1 y TP1-2 (compilación condicional)
@@ -147,8 +147,8 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4MjMwOTk3LC0xMzgwNzgyNDA3LDg5NT
-QxNjU5MiwtMzAwODAyMDcsMTk5Njk5ODI4NCwxODA1MDI3NTk1
-LDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMj
-A5OTY0ODAsMTA1MTIxNjcxOV19
+eyJoaXN0b3J5IjpbLTk1MTM2OTQ4MCw3NjgyMzA5OTcsLTEzOD
+A3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIwNywxOTk2OTk4Mjg0
+LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMz
+I2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
