@@ -7,11 +7,11 @@ Almunos:
 
 ## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpresso
 
-__1.c.ii.6__ 5.  Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky 
+__Estructura de Archivos__ 
 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
-__1.c.ii.7__ 
+__Secuencia de Comandos__ 
 
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
@@ -57,5 +57,5 @@ d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apa
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzYyMjM4XX0=
+eyJoaXN0b3J5IjpbMTE3NzEyMTE5NV19
 -->
