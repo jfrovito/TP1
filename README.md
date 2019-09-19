@@ -36,7 +36,7 @@ Una vez abierto el proyecto en cuestión, se deberá:
  2. Luego "Project" ----> "Build project".
 
 Para realizar el _debug_ se debe ir al ícono de "_debug_", imagen 1, y luego colocar la opc
-
+ión "_debug configurations_". 
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
 a. Completo (Resume), detener (Suspend) y resetear (Restart)  
@@ -106,7 +106,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUyNDY2MjksMTY3ODkxNTYyOCwxMz
+eyJoaXN0b3J5IjpbMTgwNTAyNzU5NSwtMjEzNTI0NjYyOSwxMz
 MyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2
 NDgwLDEwNTEyMTY3MTldfQ==
 -->
