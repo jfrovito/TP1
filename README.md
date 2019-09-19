@@ -58,11 +58,43 @@ Estructura de archivos dentro del proyecto:
 ![estructura de archivos]("estructura_archivo_ejemplo.png")
 Dentro de **src** se encuentran los archivos de código de programa (.c)
 Dentro de **inc** se encuentran los archivos header (.h)
-El archivo **Makefile** se declaran los siguientes flags:
+El archivo **Makefile** del proyecto. Se declaran los siguientes flags:
 
- - Nombre del proyecto
- - Ubicación de los módulos dependiendo de micro que usará
- - Ubicación de 
+> # application name
+
+**PROJECT_NAME :**= **$(notdir**  $(PROJECT)**)**
+
+  
+
+# Modules needed by the application
+
+**PROJECT_MODULES :**= modules/$(TARGET)/sapi \
+
+modules/$(TARGET)/base \
+
+modules/$(TARGET)/board \
+
+modules/$(TARGET)/chip
+
+  
+
+# source files folder
+
+**PROJECT_SRC_FOLDERS :**= $(PROJECT)/src
+
+  
+
+# header files folder
+
+**PROJECT_INC_FOLDERS :**= $(PROJECT)/inc
+
+  
+
+# source files
+
+**PROJECT_C_FILES :**= **$(wildcard**  $(PROJECT)/src/*.c**)**
+
+**PROJECT_ASM_FILES :**= **$(wildcard**  $(PROJECT)/src/*.S**)**
 
 ### Secuencia de Comandos
 
@@ -145,7 +177,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0MzI5MTE5LC0xODI2MDQ3NDg3LC03NT
+eyJoaXN0b3J5IjpbNzk3OTIzMDgyLC0xODI2MDQ3NDg3LC03NT
 IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
 NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
 IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
