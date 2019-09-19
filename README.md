@@ -1,6 +1,8 @@
-# Documentación
-**Seminario de Electrónica: Sistemas EmbebidosTrabajo Práctico N° 1**
+# Documentación Trabajo Práctico N° 1
+**Seminario de Electrónica: Sistemas Embebidos**
+
 **LPC43xx Entradas y Salidas (Digitales) de Propósito General (GPIO)**
+
 Objetivo:
  - Uso del IDE (edición, compilación y depuración de programas)
  - Uso de GPIO (manejo de Salidas y de Entradas Digitales)
@@ -90,5 +92,5 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDQ1ODI1OF19
+eyJoaXN0b3J5IjpbMTA1MTIxNjcxOV19
 -->
