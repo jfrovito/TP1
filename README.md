@@ -29,9 +29,10 @@ Por otro lado encontramos la carpeta
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp
 
-Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos de "hardware puro"
+Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos desarrollados con "código puro", con "máquinas de estado" y con Sistemas Operativos de Tiempo Real
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
+
 Los proyecto	
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
@@ -113,7 +114,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1MTYzNzY1LC0xMzUwNTE4MzMwLDE4MD
-UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
-MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
+eyJoaXN0b3J5IjpbMTEyNzY1MTg2Myw4MDUxNjM3NjUsMTgwNT
+AyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEw
+NiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ==
 -->
