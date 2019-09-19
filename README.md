@@ -90,8 +90,9 @@ Allí se copia todo el contenido de la carpeta
  
 __Funciones sAPI__
 
-Para realizar el parpadeo de un led, el programa blincky.c utiliza 2 funciones: gpioWrite( ) y delay( ).
-A gpioWrite(), se le pasa como argumentos el pin y un valor donde valor le indica al pin si se debe preneder o no el LED . Por otra parte a delay  
+L
+
+Para realizar el parpadeo de un led, el programa blincky.c utiliza 2 funciones: gpioWrite( ) y delay( ).A gpioWrite(), se le pasa como argumentos el pin y un valor donde valor le indica al pin si se debe preneder o no el LED . Por otra parte a delay  
 Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
@@ -145,9 +146,9 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDYyOTIyNjYsLTE4MjYwNDc0ODcsLT
-c1MjAwMzAxMSwtMTM4MDc4MjQwNyw4OTU0MTY1OTIsLTMwMDgw
-MjA3LDE5OTY5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LD
-EyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEy
-MTY3MTldfQ==
+eyJoaXN0b3J5IjpbMTk1NTQyMDM5NiwtMTcwNjI5MjI2NiwtMT
+gyNjA0NzQ4NywtNzUyMDAzMDExLC0xMzgwNzgyNDA3LDg5NTQx
+NjU5MiwtMzAwODAyMDcsMTk5Njk5ODI4NCwxODA1MDI3NTk1LD
+EzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5
+OTY0ODAsMTA1MTIxNjcxOV19
 -->
