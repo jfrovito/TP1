@@ -2,8 +2,8 @@
 
 Almunos:
   - Chaparro, Raúl Antonio (96222)
-  - Frovito, Juan ()
   - Fernando ()
+  - Rovito, Juan Francisco (84948)
   
 __Punto 1.c.ii.6__ 
 

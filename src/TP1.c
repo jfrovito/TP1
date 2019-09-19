@@ -64,7 +64,7 @@
 #define TP1_5 (5)	/* Test DEBUG* functions */
 #define TP1_6 (6)	/* Making portable tickHook & LEDs & Push Buttons */
 
-#define TEST (TP1_2)
+#define TEST (TP1_3)
 
 
 #if (TEST == TP1_1)	/* Test & Migrate PROJECT = sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
@@ -114,6 +114,7 @@ int main(void){
       gpioConfig( GPIO0, GPIO_INPUT );
 
       gpioConfig( GPIO1, GPIO_OUTPUT );
+      gpioConfig( GPIO2, GPIO_OUTPUT );
 
       /* Variable para almacenar el valor de tecla leido */
       bool_t valor;
@@ -133,8 +134,9 @@ int main(void){
          valor = !gpioRead( TEC4 );
          gpioWrite( LED3, valor );
 
-         valor = !gpioRead( GPIO0 );
+         valor = !gpioRead( TEC1 );
          gpioWrite( GPIO1, valor );
+         gpioWrite( GPIO2, valor );
 
       }
 
