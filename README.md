@@ -18,8 +18,9 @@ Alumnos:
 ## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpressoenes 
 
 ### Estructura de Archivos
+Los proyectos de ejemplo están ubicados dentro de la carpeta:
 
-Los proyectos de ejemplo están ubicados dentro de la carpeta:firmware_v2\sapi_examples
+	firmware_v2\sapi_examples
 
 Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA en
 
@@ -29,7 +30,7 @@ Por otro lado encontramos la carpeta
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp
 
-Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos desarrollados con "código puro", con "máquinas de estado" y con Sistemas Operativos de Tiempo Real
+Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos desarrollados con "código puro", con "máquinas de estado" y con "RTOS" (sistemas operativos de tiempo real)
 
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
 	firmware_v2\sapi_examples\edu-ciaa-nxp\statecharts
@@ -59,6 +60,7 @@ Analizaremos los proyectos dentro de **bare-metal**:
 - Magnetometer (compass) sensor HMC5883L.
 
 Dentro de GPIO encontramos el _gpio_02_blinky_
+Estructura de 
 
 ### Secuencia de Comandos
 
@@ -140,7 +142,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzY3MDUzOCwxOTk2OTk4Mjg0LDE4MD
-UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
-MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
+eyJoaXN0b3J5IjpbMjE3MTU1MTk0LDE5OTY5OTgyODQsMTgwNT
+AyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEw
+NiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ==
 -->
