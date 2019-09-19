@@ -60,41 +60,10 @@ Dentro de **src** se encuentran los archivos de código de programa (.c)
 Dentro de **inc** se encuentran los archivos header (.h)
 El archivo **Makefile** del proyecto. Se declaran los siguientes flags:
 
-> # application name
-
-**PROJECT_NAME :**= **$(notdir**  $(PROJECT)**)**
-
-  
-
-# Modules needed by the application
-
-**PROJECT_MODULES :**= modules/$(TARGET)/sapi \
-
-modules/$(TARGET)/base \
-
-modules/$(TARGET)/board \
-
-modules/$(TARGET)/chip
-
-  
-
-# source files folder
-
-**PROJECT_SRC_FOLDERS :**= $(PROJECT)/src
-
-  
-
-# header files folder
-
-**PROJECT_INC_FOLDERS :**= $(PROJECT)/inc
-
-  
-
-# source files
-
-**PROJECT_C_FILES :**= **$(wildcard**  $(PROJECT)/src/*.c**)**
-
-**PROJECT_ASM_FILES :**= **$(wildcard**  $(PROJECT)/src/*.S**)**
+ - Nombre del proyecto (**PROJECT_NAME**)
+ - Ubicación de los módulos, dependiendo de micro que usará (**PROJECT_MODULES**)
+	 - modules/$(TARGET)/sapi
+ - Ubicación de 
 
 ### Secuencia de Comandos
 
@@ -177,9 +146,9 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3OTIzMDgyLC0xODI2MDQ3NDg3LC03NT
-IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
-NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
-IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
-NzE5XX0=
+eyJoaXN0b3J5IjpbLTExOTY0Njk0NjQsLTE4MjYwNDc0ODcsLT
+c1MjAwMzAxMSwtMTM4MDc4MjQwNyw4OTU0MTY1OTIsLTMwMDgw
+MjA3LDE5OTY5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LD
+EyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEy
+MTY3MTldfQ==
 -->
