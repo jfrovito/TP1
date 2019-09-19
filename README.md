@@ -68,7 +68,7 @@ b. Identificar funciones de librería sAPI útiles para el colgarse de un tick
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
 
-# Punto 4: Uso de tickHooks & LEDs c/sAPI
+## Punto 4: Uso de tickHooks & LEDs c/sAPI
 
 Hacer portable el uso de tickHooks & LEDs c/sAPI
 a.  Mediante compilación condicional, mantener en el archivo TP1.c los fuentes del TP1-1, TP1-2, TP1-3 y TP1-4
@@ -76,7 +76,7 @@ b.  Documentar la modificación la configuración del tickHook en función de
 c.  Documentar la modificación el parpadeo del led en función de la constante LED_TOGGLE_MS (100mS/500mS/1000mS)
 d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apagar -500mS/500mS- uno a la vez en secuencia)
 
-# Punto 5: Envío de mensajes de depuración por puerto serie c/sAPI
+## Punto 5: Envío de mensajes de depuración por puerto serie c/sAPI
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
 
@@ -92,5 +92,5 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjkwMTc1NTIsMTA1MTIxNjcxOV19
+eyJoaXN0b3J5IjpbMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
