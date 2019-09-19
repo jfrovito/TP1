@@ -60,9 +60,10 @@ Dentro de **src** se encuentran los archivos de código de programa (.c)
 Dentro de **inc** se encuentran los archivos header (.h)
 El archivo **Makefile** del proyecto. Se declaran los siguientes flags:
 
- - Nombre del proyecto (**PROJECT_NAME**)
- - Ubicación de los módulos, dependiendo de micro que usará (**PROJECT_MODULES**)
+ - Nombre del proyecto (PROJECT_NAME)
+ - Ubicación de los módulos, dependiendo de micro que usará (PROJECT_MODULES)
 	 - modules/$(TARGET)/sapi
+	 - 
  - Ubicación de 
 
 ### Secuencia de Comandos
@@ -88,8 +89,6 @@ Allí se copia todo el contenido de la carpeta
 	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metalgpio/gpio_02_blinky
  
 __Funciones sAPI__
-
-Mediante 
 
 Para realizar el parpadeo de un led, el programa blincky.c utiliza 2 funciones: gpioWrite( ) y delay( ).
 A gpioWrite(), se le pasa como argumentos el pin y un valor donde valor le indica al pin si se debe preneder o no el LED . Por otra parte a delay  
@@ -146,7 +145,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY0Njk0NjQsLTE4MjYwNDc0ODcsLT
+eyJoaXN0b3J5IjpbLTE3MDYyOTIyNjYsLTE4MjYwNDc0ODcsLT
 c1MjAwMzAxMSwtMTM4MDc4MjQwNyw4OTU0MTY1OTIsLTMwMDgw
 MjA3LDE5OTY5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LD
 EyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEy
