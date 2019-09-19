@@ -21,15 +21,18 @@ Alumnos:
 
 Los proyectos de ejemplo están ubicados dentro de la carpeta:firmware_v2\sapi_examples
 
-Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA en:
+Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA en
 
 	firmware_v2\sapi_examples\documentation
 
-Por otro lado encontramos la carpetafirmware_v2\sapi_examples\edu-ciaa-nxp
+Por otro lado encontramos la carpeta
+
+	firmware_v2\sapi_examples\edu-ciaa-nxp
+
 Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos de "hardware puro"
 
-	ewce
-	
+	firmware_v2\sapi_examples\edu-ciaa-nxp\bare_metal
+Los proyectos 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
 ### Secuencia de Comandos
@@ -110,7 +113,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcxMDI2OTYzLC0xMjIxMTk3MjI3LDE4MD
+eyJoaXN0b3J5IjpbLTEzNTA1MTgzMzAsNjcxMDI2OTYzLDE4MD
 UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
 MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
