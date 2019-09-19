@@ -19,9 +19,7 @@ Alumnos:
 
 ### Estructura de Archivos
 
-Los proyectos de ejemplo están ubicados dentro de la carpeta:
-
-	firmware_v2\sapi_examples
+Los proyectos de ejemplo están ubicados dentro de la carpeta:firmware_v2\sapi_examples
 
 Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA en:
 
@@ -41,8 +39,8 @@ Una vez abierto el proyecto en cuestión, se deberá:
  1. Ir a la pestaña "Proyect" ----> "Clean".
  2. Luego "Project" ----> "Build project".
 
-Para realizar el _debug_ se debe ir al ícono de "_debug_", imagen 1, y luego colocar la opc
-ión "_debug configurations_". 
+Para realizar el _debug_ se debe ir al ícono de "_debug_" y luego colocar la opción "_debug configurations_".
+Una vez realizada la configuración del _debug_, hay que re 
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
 a. Completo (Resume), detener (Suspend) y resetear (Restart)  
@@ -112,7 +110,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjExOTcyMjcsMTgwNTAyNzU5NSwxMz
-MyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2
-NDgwLDEwNTEyMTY3MTldfQ==
+eyJoaXN0b3J5IjpbNjcxMDI2OTYzLC0xMjIxMTk3MjI3LDE4MD
+UwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMzI2MzMx
+MDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
