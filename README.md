@@ -95,6 +95,7 @@ Documentar los pasos a seguir para concretar una migración exitosa
  
 __Funciones sAPI__
 
+Para realizar el parpadeo de un led, el archivo
 Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
@@ -109,7 +110,6 @@ e cMigrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_01_switche
 a. Documentar los pasos a seguir para mantener en el archivo TP1.c los fuentes del TP1-1 y TP1-2 (compilación condicional)
 
 ### Funciones sAPI
-
 b. Identificar funciones de librería sAPI útiles para el sensado de un pulsador
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
@@ -149,7 +149,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NDY3NzE3NiwtOTUxMzY5NDgwLC0xMz
+eyJoaXN0b3J5IjpbMTU1NTQyOTI5MywtNzQ0Njc3MTc2LC0xMz
 gwNzgyNDA3LDg5NTQxNjU5MiwtMzAwODAyMDcsMTk5Njk5ODI4
 NCwxODA1MDI3NTk1LDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMz
 MyNjMzMTA2LDEyMjA5OTY0ODAsMTA1MTIxNjcxOV19
