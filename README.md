@@ -80,6 +80,9 @@ d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algu�
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
 
 __Pasos de Migración__ 
+
+Para realizar la migración, en primer lugar
+
 Documentar los pasos a seguir para concretar una migración exitosa
  
 __Funciones sAPI__
@@ -137,8 +140,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDgwMjA3LC0xNzIwMjQxMzk4LDE5OT
-Y5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0
-ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ
-==
+eyJoaXN0b3J5IjpbODk1NDE2NTkyLC0zMDA4MDIwNywxOTk2OT
+k4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMjIwOTk2NDgw
+LDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2NzE5XX0=
 -->
