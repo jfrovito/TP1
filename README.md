@@ -20,7 +20,8 @@ Alumnos:
 ### Estructura de Archivos
 
 Los proyectos de ejemplo están ubicados dentro de la carpeta firmware_v2/sapi_examples.
-
+Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA.
+Por otro lado encontramos la carpeta firmware_v2/sapi_examples\edu-ciaa
 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
@@ -95,7 +96,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NzAyODc0LDEzMzI2MzMxMDYsMTIyMD
-k5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTA1MTIxNjcx
-OV19
+eyJoaXN0b3J5IjpbLTEyNTQxMDM3MDcsMTMzMjYzMzEwNiwxMj
+IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
+NzE5XX0=
 -->
