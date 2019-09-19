@@ -54,7 +54,8 @@ Analizaremos los proyectos dentro de **bare-mel:
 - Magnetometer (compass) sensor HMC5883L.
 
 Dentro de GPIO encontramos el _gpio_02_blinky_
-Estructura de 
+Estructura de archivos dentro del proyecto:
+
 
 ### Secuencia de Comandos
 
@@ -136,7 +137,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjAyNDEzOTgsMjE3MTU1MTk0LDE5OT
+eyJoaXN0b3J5IjpbLTMwMDgwMjA3LC0xNzIwMjQxMzk4LDE5OT
 Y5OTgyODQsMTgwNTAyNzU5NSwxMzMyNjMzMTA2LDEyMjA5OTY0
 ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3MTldfQ
 ==
