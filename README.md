@@ -28,6 +28,10 @@ Documentar mediante tablas c/texto e imágenes la estructura de archivos, su ti
 
 ### Secuencia de Comandos
 
+Una vez abierto el proyecto en cuestión, se deberá:
+
+ 1. Ir a Proyect---->
+
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
 a. Completo (Resume), detener (Suspend) y resetear (Restart)  
@@ -97,7 +101,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODI1ODkxNiwxMzMyNjMzMTA2LDEyMj
-A5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3
-MTldfQ==
+eyJoaXN0b3J5IjpbMjEyMjQ5MzY1MCwxMzE4MjU4OTE2LDEzMz
+I2MzMxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0
+ODAsMTA1MTIxNjcxOV19
 -->
