@@ -11,7 +11,7 @@ Objetivo:
 
 Alumnos:
   - Chaparro, Raúl Antonio (96222)
-  - Fernando ()
+  - García, Fernando (97770)
   - Rovito, Juan Francisco (84948)
 
 
@@ -92,5 +92,5 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MTIxNjcxOV19
+eyJoaXN0b3J5IjpbLTE3MjkwMTc1NTIsMTA1MTIxNjcxOV19
 -->
