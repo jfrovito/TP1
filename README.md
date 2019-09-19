@@ -69,6 +69,18 @@ d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apa
 # Punto 5: Envío de mensajes de depuración por puerto serie c/sAPI
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
+
+### Funciones sAPI
+
+c. Identificar funciones de librería sAPI útiles para esta nueva funcionalidad
+	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
+   ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto en ResetISR() como en main())
+
+## Punto 6: Sensado de Push Buttons c/sAPI
+
+d.  En caso que no funcione correctamente el ejemplo de aplicación documentar la forma de la señal digital “pulsador” a sensar: no oprimido // transición a oprimido // mantener oprimido // transición a no oprimido) // ...
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ5MzE2OTUwXX0=
+eyJoaXN0b3J5IjpbMzM1MTE0NTgxXX0=
 -->
