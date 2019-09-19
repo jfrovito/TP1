@@ -1,9 +1,15 @@
+
 # Documentación del TP1 del grupo XX
 
 Almunos:
   - Chaparro, Raúl Antonio (96222)
   - Fernando ()
   - Rovito, Juan Francisco (84948)
+
+Objetivo:
+ - Uso del IDE (edición, compilación y depuración de programas)
+ - Uso de GPIO (manejo de Salidas y de Entradas Digitales)
+ - Documentar lo que se solicita en c/ítems
 
 ## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpresso
 
@@ -82,5 +88,5 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MTE0NTgxXX0=
+eyJoaXN0b3J5IjpbMjEzMjI2OTU4NV19
 -->
