@@ -1,17 +1,17 @@
-**Seminario de Electrónica: Sistemas Embebidos - Trabajo Práctico N° 1**
-
-LPC43xx Entradas y Salidas (Digitales) de Propósito General (GPIO)
 # Documentación
+**Seminario de Electrónica: Sistemas EmbebidosTrabajo Práctico N° 1**
+**LPC43xx Entradas y Salidas (Digitales) de Propósito General (GPIO)**
+Objetivo:
+ - Uso del IDE (edición, compilación y depuración de programas)
+ - Uso de GPIO (manejo de Salidas y de Entradas Digitales)
+ - Documentar lo que se solicita en c/ítems
+
 
 Alumnos:
   - Chaparro, Raúl Antonio (96222)
   - Fernando ()
   - Rovito, Juan Francisco (84948)
 
-Objetivo:
- - Uso del IDE (edición, compilación y depuración de programas)
- - Uso de GPIO (manejo de Salidas y de Entradas Digitales)
- - Documentar lo que se solicita en c/ítems
 
 ## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpresso
 
@@ -90,5 +90,5 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI2MjUyNzVdfQ==
+eyJoaXN0b3J5IjpbLTc3NDQ1ODI1OF19
 -->
