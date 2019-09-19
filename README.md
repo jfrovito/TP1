@@ -19,6 +19,7 @@ Alumnos:
 
 ### Estructura de Archivos
 
+Los proyectos de ejemplo están ubicados 
 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
@@ -93,7 +94,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEzMz
-I2MzMxMDYsMTIyMDk5NjQ4MCwxMjIwOTk2NDgwLDEwNTEyMTY3
+eyJoaXN0b3J5IjpbLTE1MzkzMzE5OCwxMzMyNjMzMTA2LDEyMj
+A5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2NDgwLDEwNTEyMTY3
 MTldfQ==
 -->
