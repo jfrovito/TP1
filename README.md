@@ -7,11 +7,11 @@ Almunos:
 
 ## Punto 1. Uso del IDE (Integrated Development Environment) MCUXpresso
 
-__Estructura de Archivos__ 
+### Estructura de Archivos
 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
-__Secuencia de Comandos__ 
+### Secuencia de Comandos
 
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
@@ -24,12 +24,11 @@ __Migración: Parpadeo de LEDs__
 
 Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
 
-# Heading
-
 _Pasos de Migración_ 
 a. Documentar los pasos a seguir para concretar una migración exitosa
  
-_Funciones sAPI_
+_sAPI_
+
 b. Identificar funciones de librería sAPI útiles para el parpadeo de un led
 	i.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
 	ii.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
@@ -61,5 +60,5 @@ d.  Modificar ejemplo de aplicación para soportar todos los LEDs (encender/apa
 
 Agregar al ejemplo anterior (4.d) envío de mensajes de depuración por puerto serie c/sAPI
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDczOTQ4M119
+eyJoaXN0b3J5IjpbLTg3OTk2Mzg2MF19
 -->
