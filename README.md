@@ -24,7 +24,7 @@ Los proyectos de ejemplo están ubicados dentro de la carpeta:
 Allí encontramos una carpeta con documentación orientada al mapeo de periféricos para la EDU CIAA en:
 	firmware_v2\sapi_examples\documentation.
 Por otro lado encontramos la carpetafirmware_v2\sapi_examples\edu-ciaa-nxp
-Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos de "hardware puro", proyectos 
+Allí encontramos todos los proyectos de ejemplo para la EDU-CIAA separados por proyectos de "hardware puro"
 
 Documentar mediante tablas c/texto e imágenes la estructura de archivos, su tipo/contenido (especialmente readme.txt) de c/proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 
@@ -35,7 +35,8 @@ Una vez abierto el proyecto en cuestión, se deberá:
  1. Ir a la pestaña "Proyect" ----> "Clean".
  2. Luego "Project" ----> "Build project".
 
-Para realizar el _debug_ se debe ir al ícono de "_debug_", imagen 1, y luego colocar la opci
+Para realizar el _debug_ se debe ir al ícono de "_debug_", imagen 1, y luego colocar la opc
+
 Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean firmware_v2 -> Buildfirmware_v2 -> Debug firmware_v2 -> Ejecutar gpio_02_blinky (ejemplo de aplicación)
     
 a. Completo (Resume), detener (Suspend) y resetear (Restart)  
@@ -105,7 +106,7 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODkxNTYyOCwyMjQ3OTM5LDEzMzI2Mz
-MxMDYsMTIyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0ODAs
-MTA1MTIxNjcxOV19
+eyJoaXN0b3J5IjpbLTIxMzUyNDY2MjksMTY3ODkxNTYyOCwxMz
+MyNjMzMTA2LDEyMjA5OTY0ODAsMTMzMjYzMzEwNiwxMjIwOTk2
+NDgwLDEwNTEyMTY3MTldfQ==
 -->
