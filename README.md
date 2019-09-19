@@ -16,9 +16,19 @@ Documentar mediante tablas c/texto e imágenes la secuencia de comandos: Clean 
     a. Completo (Resume), detener (Suspend) y resetear (Restart)  
     b. Por etapas colocando breakpoints (Resume)  
     c. Por línea de código (Step Into, Step Over, Step Return)  
-    d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algún archivo, o
+    d. Recuerde siempre abandonar Debug (Terminate) antes de Editar o Compilar algún archivo, o abandonar el IDE (Exit)
+
+__Punto 1.c.ii.8__ 
+
+Migrar el proyecto sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky (parpadeo del LEDs c/sAPI) a: projects/TP1
+
+a. Documentar los pasos a seguir para concretar una migración exitosa
     
-    Abandonar el IDE (Exit)
+b. Identificar funciones de librería sAPI útiles para el parpadeo de un led
+    
+    1.  Documentar mediante tablas c/texto e imágenes la secuencia de funciones invocadas durante la ejecución del ejemplo de aplicación, en qué archivo se encuentran, su descripción detallada, qué efecto tiene la aplicación sobre el hardware (identificar circuitos, puertos, pines, niveles, etc.) así como la interacción entre las mismas (tanto enResetISR() como en main())
+        
+    2.  Idem c pero con datos (definiciones, constantes, variables, estructuras, etc.) (tanto enResetISR() como en main())
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Nzk0NDA5Nl19
+eyJoaXN0b3J5IjpbMTMyNTQ0ODc4N119
 -->
