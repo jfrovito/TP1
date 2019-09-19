@@ -58,7 +58,7 @@ Estructura de archivos dentro del proyecto:
 ![estructura de archivos]("estructura_archivo_ejemplo.png")
 Dentro de **src** se encuentran los archivos de código de programa (.c)
 Dentro de **inc** se encuentran los archivos header (.h)
-El archivo **Makefile** 
+El archivo **Makefile** se declaran 
 
 ### Secuencia de Comandos
 
@@ -84,7 +84,7 @@ Allí se copia todo el contenido de la carpeta
  
 __Funciones sAPI__
 
-L
+Mediante 
 
 Para realizar el parpadeo de un led, el programa blincky.c utiliza 2 funciones: gpioWrite( ) y delay( ).
 A gpioWrite(), se le pasa como argumentos el pin y un valor donde valor le indica al pin si se debe preneder o no el LED . Por otra parte a delay  
@@ -141,9 +141,9 @@ d.  En caso que no funcione correctamente el ejemplo de aplicación documentar 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTk1MTA2NSwtMTgyNjA0NzQ4NywtNz
-UyMDAzMDExLC0xMzgwNzgyNDA3LDg5NTQxNjU5MiwtMzAwODAy
-MDcsMTk5Njk5ODI4NCwxODA1MDI3NTk1LDEzMzI2MzMxMDYsMT
-IyMDk5NjQ4MCwxMzMyNjMzMTA2LDEyMjA5OTY0ODAsMTA1MTIx
-NjcxOV19
+eyJoaXN0b3J5IjpbMjkxNjc5MDc2LC0xODI2MDQ3NDg3LC03NT
+IwMDMwMTEsLTEzODA3ODI0MDcsODk1NDE2NTkyLC0zMDA4MDIw
+NywxOTk2OTk4Mjg0LDE4MDUwMjc1OTUsMTMzMjYzMzEwNiwxMj
+IwOTk2NDgwLDEzMzI2MzMxMDYsMTIyMDk5NjQ4MCwxMDUxMjE2
+NzE5XX0=
 -->
