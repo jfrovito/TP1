@@ -1,4 +1,4 @@
-/* Copyright 2016, Eric Pernia.
+/* Copyright 2019, Raúl Antonio Chaparro, Fernando García, Juan Francisco Rovito
  * All rights reserved.
  *
  * This file is part sAPI library for microcontrollers.
@@ -39,6 +39,8 @@
 
 //#include "blinky.h"   // <= own header (optional)
 #include "sapi.h"       // <= sAPI header
+#include "systick.h"
+#include "led_button.h"
 
 /*==================[macros and definitions]=================================*/
 
@@ -64,38 +66,39 @@
 #define TP1_5 (5)	/* Test DEBUG* functions */
 #define TP1_6 (6)	/* Making portable tickHook & LEDs & Push Buttons */
 
-#define TEST (TP1_3)
+#define TEST (TP1_6)
 
 
 #if (TEST == TP1_1)	/* Test & Migrate PROJECT = sapi_examples/edu-ciaa-nxp/bare_metal/gpio/gpio_02_blinky
 							       to PROJECT = projects/SE-2018-TPs/TP1 */
 
-/* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
-int main(void){
+	/* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
+	int main(void){
 
-   /* ------------- INICIALIZACIONES ------------- */
+	   /* ------------- INICIALIZACIONES ------------- */
 
-   /* Inicializar la placa */
-   boardConfig();
+	   /* Inicializar la placa */
+	   boardConfig();
 
-   /* ------------- REPETIR POR SIEMPRE ------------- */
-   while(1) {
+	   /* ------------- REPETIR POR SIEMPRE ------------- */
+	   while(1) {
 
-      /* Prendo el led azul */
-      gpioWrite( LEDB, ON );
+		  /* Prendo el led azul */
+		  gpioWrite( LEDB, ON );
 
-      delay(500);
+		  delay(500);
 
-      /* Apago el led azul */
-      gpioWrite( LEDB, OFF );
+		  /* Apago el led azul */
+		  gpioWrite( LEDB, OFF );
 
-      delay(500);
+		  delay(500);
 
-   }
+	   }
 
-   /* NO DEBE LLEGAR NUNCA AQUI, debido a que a este programa no es llamado
-      por ningun S.O. */
-   return 0 ;
+	   /* NO DEBE LLEGAR NUNCA AQUI, debido a que a este programa no es llamado
+		  por ningun S.O. */
+	   return 0 ;
+	}
 
 #endif
 
@@ -114,7 +117,6 @@ int main(void){
       gpioConfig( GPIO0, GPIO_INPUT );
 
       gpioConfig( GPIO1, GPIO_OUTPUT );
-      gpioConfig( GPIO2, GPIO_OUTPUT );
 
       /* Variable para almacenar el valor de tecla leido */
       bool_t valor;
@@ -136,7 +138,6 @@ int main(void){
 
          valor = !gpioRead( TEC1 );
          gpioWrite( GPIO1, valor );
-         gpioWrite( GPIO2, valor );
 
       }
 
@@ -216,18 +217,202 @@ int main(void){
 
 #if (TEST == TP1_4)	/* Making portable tickHook & LEDs */
 
+   /* FUNCION que se ejecuta cada vez que ocurre un Tick. */
+   void myTickHook( void *ptr ) {
+   	LED_Time_Flag = TRUE;
+   }
+
+   /* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
+   int main(void) {
+
+   	/* ------------- INICIALIZACIONES ------------- */
+   	uint32_t LED_Toggle_Counter = 0;
+
+   	/* Inicializar la placa */
+   	boardConfig();
+
+   	/* Inicializar el conteo de Ticks con resolucion de 1ms (se ejecuta
+          periodicamente una interrupcion cada TICKRATE_MS que incrementa un contador de
+          Ticks obteniendose una base de tiempos). */
+   	tickConfig( TICKRATE_MS );
+
+   	/* Se agrega ademas un "tick hook" nombrado myTickHook. El tick hook es
+          simplemente una funcion que se ejecutara peri�odicamente con cada
+          interrupcion de Tick, este nombre se refiere a una funcion "enganchada"
+          a una interrupcion.
+          El segundo parametro es el parametro que recibe la funcion myTickHook
+          al ejecutarse. En este ejemplo se utiliza para pasarle el led a titilar.
+   	*/
+   	tickCallbackSet( myTickHook, (void*)NULL );
+
+   	/* ------------- REPETIR POR SIEMPRE ------------- */
+   	while(1) {
+   		__WFI();
+
+   		if (LED_Time_Flag == TRUE) {
+   			LED_Time_Flag = FALSE;
+
+   			if (LED_Toggle_Counter == 0) {
+   				LED_Toggle_Counter = LED_TOGGLE_MS;
+   				gpioToggle(LED3);
+   			}
+   			else
+   				LED_Toggle_Counter--;
+   		}
+   	}
+
+   	/* NO DEBE LLEGAR NUNCA AQUI, debido a que a este programa no es llamado
+          por ningun S.O. */
+   	return 0 ;
+   }
+
 
 #endif
 
 
 #if (TEST == TP1_5)	/* Test DEBUG* functions */
 
+   /* The DEBUG* functions are sAPI debug print functions.
+      Code that uses the DEBUG* functions will have their I/O routed to
+      the sAPI DEBUG UART. */
+   DEBUG_PRINT_ENABLE;
+
+   /* FUNCION que se ejecuta cada vez que ocurre un Tick. */
+   void myTickHook( void *ptr ) {
+   	LED_Time_Flag = TRUE;
+   }
+
+   /* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
+   int main(void) {
+
+   	/* ------------- INICIALIZACIONES ------------- */
+   	uint32_t LED_Toggle_Counter = 0;
+
+   	/* Inicializar la placa */
+   	boardConfig();
+
+   	/* UART for debug messages. */
+   	debugPrintConfigUart( UART_USB, 115200 );
+   	debugPrintString( "DEBUG c/sAPI\r\n" );
+
+   	/* Inicializar el conteo de Ticks con resolucion de 1ms (se ejecuta
+          periodicamente una interrupcion cada TICKRATE_MS que incrementa un contador de
+          Ticks obteniendose una base de tiempos). */
+   	tickConfig( TICKRATE_MS );
+
+   	/* Se agrega ademas un "tick hook" nombrado myTickHook. El tick hook es
+          simplemente una funcion que se ejecutara peri�odicamente con cada
+          interrupcion de Tick, este nombre se refiere a una funcion "enganchada"
+          a una interrupcion.
+          El segundo parametro es el parametro que recibe la funcion myTickHook
+          al ejecutarse. En este ejemplo se utiliza para pasarle el led a titilar.
+   	*/
+   	tickCallbackSet( myTickHook, (void*)NULL );
+
+   	/* ------------- REPETIR POR SIEMPRE ------------- */
+   	while(1) {
+   		__WFI();
+
+   		if (LED_Time_Flag == TRUE) {
+   			LED_Time_Flag = FALSE;
+
+   			if (LED_Toggle_Counter == 0) {
+   				LED_Toggle_Counter = LED_TOGGLE_MS;
+   				gpioToggle(LED3);
+   				debugPrintString( "LED Toggle\n" );
+   			}
+   			else
+   				LED_Toggle_Counter--;
+   		}
+   	}
+
+   	/* NO DEBE LLEGAR NUNCA AQUI, debido a que a este programa no es llamado
+          por ningun S.O. */
+   	return 0 ;
+   }
 
 #endif
 
 
 #if (TEST == TP1_6)	/* Making portable tickHook & LEDs & Push Buttons */
 
+   /* The DEBUG* functions are sAPI debug print functions.
+      Code that uses the DEBUG* functions will have their I/O routed to
+      the sAPI DEBUG UART. */
+   DEBUG_PRINT_ENABLE;
+
+   /* FUNCION que se ejecuta cada vez que ocurre un Tick. */
+   void myTickHook( void *ptr ) {
+	   LED_Time_Flag = TRUE;
+	   BUTTON_Time_Flag = TRUE;
+
+       if (!gpioRead( TEC1 ))
+    	   BUTTON_Status_Flag = TRUE;
+       else
+    	   BUTTON_Status_Flag = FALSE;
+   }
+
+   /* FUNCION PRINCIPAL, PUNTO DE ENTRADA AL PROGRAMA LUEGO DE RESET. */
+   int main(void) {
+
+   	/* ------------- INICIALIZACIONES ------------- */
+   	uint32_t BUTTON_Status_Counter = 0;
+   	uint32_t idx = LED3;
+
+   	/* Inicializar la placa */
+   	boardConfig();
+
+   	/* UART for debug messages. */
+   	debugPrintConfigUart( UART_USB, 115200 );
+   	debugPrintString( "DEBUG c/sAPI\r\n" );
+
+   	/* Inicializar el conteo de Ticks con resolucion de 1ms (se ejecuta
+          periodicamente una interrupcion cada TICKRATE_MS que incrementa un contador de
+          Ticks obteniendose una base de tiempos). */
+   	tickConfig( TICKRATE_MS );
+
+   	/* Se agrega ademas un "tick hook" nombrado myTickHook. El tick hook es
+          simplemente una funcion que se ejecutara peri�odicamente con cada
+          interrupcion de Tick, este nombre se refiere a una funcion "enganchada"
+          a una interrupcion.
+          El segundo parametro es el parametro que recibe la funcion myTickHook
+          al ejecutarse. En este ejemplo se utiliza para pasarle el led a titilar.
+   	*/
+   	tickCallbackSet( myTickHook, (void*)NULL );
+
+   	gpioToggle(LED3);
+
+   	/* ------------- REPETIR POR SIEMPRE ------------- */
+   	while(1) {
+   		__WFI();
+
+   		if (BUTTON_Time_Flag == TRUE) {
+   			BUTTON_Time_Flag = FALSE;
+
+   			if (BUTTON_Status_Flag == TRUE) {
+   				BUTTON_Status_Flag = FALSE;
+
+   				if (BUTTON_Status_Counter == 0) {
+   					BUTTON_Status_Counter = BUTTON_STATUS_MS;
+
+   					gpioToggle(idx);
+
+   					((idx > LEDR) ? idx-- : (idx = LED3));
+
+   					gpioToggle(idx);
+   					debugPrintString( "LED Toggle\n" );
+   				}
+   				else
+   					BUTTON_Status_Counter--;
+   			}
+
+   		}
+   	}
+
+   	/* NO DEBE LLEGAR NUNCA AQUI, debido a que a este programa no es llamado
+          por ningun S.O. */
+   	return 0 ;
+   }
 
 
 #endif
