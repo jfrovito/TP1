@@ -62,7 +62,7 @@ Dentro de GPIO encontramos el _gpio_02_blinky_
 
 Estructura de archivos dentro del proyecto:
 
-![estructura de archivos](estructura_archivo_ejemplo.png)
+<img src="img/estructura_archivo_ejemplo.png" width="300">
 
 Dentro de **src** se encuentran los archivos de código de programa (.c)
 
@@ -197,5 +197,5 @@ La función "_debugPrintString()_" se va a encargar de enviar una cadena de cara
 ## Punto 6: Sensado de Push Buttons c/sAPI
 En caso que no funcione correctamente el ejemplo de aplicación documentar la forma de la señal digital “pulsador” a sensar: no oprimido // transición a oprimido // mantener oprimido // transición a no oprimido) // …
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTA0ODE3OCwtODE0NTM2NzIxXX0=
+eyJoaXN0b3J5IjpbMTI1MDMxNjcyOCwtODE0NTM2NzIxXX0=
 -->
