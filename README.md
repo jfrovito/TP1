@@ -70,7 +70,7 @@ Dentro de **inc** se encuentran los archivos header (.h)
 
 El archivo **Makefile** del proyecto. Se declaran los siguientes flags:
 
-![Make](img/Make.png)
+![Make](img/Make.png#thumbnail)
 
 
 ### Secuencia de Comandos
@@ -198,5 +198,5 @@ La función "_debugPrintString()_" se va a encargar de enviar una cadena de cara
 ## Punto 6: Sensado de Push Buttons c/sAPI
 En caso que no funcione correctamente el ejemplo de aplicación documentar la forma de la señal digital “pulsador” a sensar: no oprimido // transición a oprimido // mantener oprimido // transición a no oprimido) // …
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODU1NzU3MDZdfQ==
+eyJoaXN0b3J5IjpbMTQyMDI1ODcxXX0=
 -->
