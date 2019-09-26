@@ -62,7 +62,7 @@ Dentro de GPIO encontramos el _gpio_02_blinky_
 
 Estructura de archivos dentro del proyecto:
 
-<img src="img/estructura_archivo_ejemplo.png" width="100">
+<img src="img/estructura_archivo_ejemplo.png" width="200">
 
 Dentro de **src** se encuentran los archivos de código de programa (.c)
 
@@ -147,19 +147,19 @@ Los puertos leidos y y usados son:
 ### Ítem c
 A continuación se muestra la estructura de datos al _debbugear_ el código. Como se puede ver, el valor de pin es "GPIO0" y tiene como pinNamePort = 6, pinNamePin=1, func=0, gpioPort=3, gpioPin=0, como ya se hizo mensión.
 
-![Configuración GPIO0](punto2_config_GPIO0.JPG)
+![Configuración GPIO0](img/punto2_config_GPIO0.JPG)
 
 Por otra parte si se quiere encender el LED 2, se debe tocar el pulsador número 3. En la próxima iamgen se muestran los puertos y pines de la tecla **TEC_3** y como su valor es de 0. 
-![TEC_3 ON](TEC_3_ON.JPG)
+![TEC_3 ON](img/TEC_3_ON.JPG)
 
 Esto hace que el valor (_value_) de LED2 sea 1, como se muestra a continuación.
-![LED2 ON](LED2_ON.JPG)
+![LED2 ON](img/LED2_ON.JPG)
 
 Para encender el led se usa la función **gpioWrite( )** y al entrar se puede ver que el valor _setting_ es **TRUE**, provocando el seteo del led.
 
-![Encendido LED2](Encendido_LED2.JPG)
+![Encendido LED2](img/Encendido_LED2.JPG)
 
-<h2 id="punto-3-uso-de-tickhooks-csapi">Punto 3: Uso de tickHooks c/sAPI</h2>
+## Punto 3: Uso de tickHooks c/sAPI
 
 ### Funciones sAPI para el uso de interrupciones
 
@@ -197,6 +197,6 @@ La función "_debugPrintString()_" se va a encargar de enviar una cadena de cara
 ## Punto 6: Sensado de Push Buttons c/sAPI
 En caso que no funcione correctamente el ejemplo de aplicación documentar la forma de la señal digital “pulsador” a sensar: no oprimido // transición a oprimido // mantener oprimido // transición a no oprimido) // …
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDM0MDM4LDEyNTAzMTY3MjgsLTgxND
-UzNjcyMV19
+eyJoaXN0b3J5IjpbMTQ1MDI4OTA5OSwyMDU0MzQwMzgsMTI1MD
+MxNjcyOCwtODE0NTM2NzIxXX0=
 -->
